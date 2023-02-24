@@ -1,0 +1,33 @@
+.PR_cart_product {
+    position: relative;
+}
+
+.PR_cart_product img {
+    opacity            : 1;
+    display            : block;
+    width              : 100%;
+    height             : auto;
+    transition         : .5s ease;
+    backface-visibility: hidden;
+}
+
+.PR_overly {
+    transition      : .5s ease;
+    opacity         : 0;
+    position        : absolute;
+    top             : 50%;
+    left            : 50%;
+    transform       : translate(-50%, -50%);
+    -ms-transform   : translate(-50%, -50%);
+    text-align      : center;
+    width           : fit-content;
+}
+
+.PR_cart_product:hover img {
+    opacity: 0.3;
+    box-shadow: 5px 5px 10px 10px #888888;
+}
+
+.PR_cart_product:hover .PR_overly {
+    opacity: 1;
+}

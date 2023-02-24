@@ -1,0 +1,21 @@
+.LG_form {
+    display                   : flex;
+    justify-content           : center;
+    align-items               : center;
+    min-height                : 70vh;
+    background-color          : #3d464d;
+    border-bottom-left-radius : 20px;
+    border-bottom-right-radius: 20px;
+    border                    : 10px solid orange;
+    border-top                : none;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .LG_form {
+        border-bottom-left-radius : none;
+        border-bottom-right-radius: none;
+        border                    : none;
+        height                    : min-content;
+    }
+}

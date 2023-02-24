@@ -1,0 +1,12 @@
+.cr_inpute_style button{
+    background-color: #ffd333;
+    border: #ffd333 solid 1px;
+    border-radius: 10%;
+    padding: 3px 10px;
+}
+.cr_inpute_style input{
+ width: 5px !important  ;
+}
+.align-middle img{
+    width: 30px;
+}
